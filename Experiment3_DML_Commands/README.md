@@ -45,7 +45,7 @@ Used to retrieve records from a table.
 ```sql
 SELECT column1, column2 FROM table_name WHERE condition;
 ```
-**Question 1**
+### Question 1
 --
 --Write a SQL statement to Update the address to '58 Lakeview, Magnolia' where supplier ID is 5 in the suppliers table.
 
@@ -55,12 +55,12 @@ set address='58 Lakeview, Magnolia'
 where supplier_id=5;
 ```
 
-**Output:**
+### Output:
 
 ![image](https://github.com/user-attachments/assets/781d2536-1091-44dc-9613-398ae3f13205)
 
 
-**Question 2**
+### Question 2
 ---
 -- Write a SQL statement to double the availability of the product with product_id 1.
 
@@ -70,11 +70,11 @@ set availability=availability*2
 where product_id=1;
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/36bdadbc-1095-4879-bf47-d984c622de7b)
 
 
-**Question 3**
+### Question 3
 ---
 --  Update the total selling price to quantity sold multiplied by updated selling price per unit where product id is 10 in the sales table.
 
@@ -84,11 +84,11 @@ set total_sell_price=quantity*sell_price
 where product_id=10;
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/ca547d63-5b6f-42e8-8fa9-520e35431f5c)
 
 
-**Question 4**
+### Question 4
 ---
 -- Write a SQL query to Delete customers from 'customer' table where 'GRADE' is not equal to 3.
 
@@ -97,11 +97,11 @@ DELETE FROM Customer
 where GRADE<>3;
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/ba99906b-bbb2-4834-8383-621acb16548f)
 
 
-**Question 5**
+### Question 5
 ---
 --Write a SQL query to delete a doctor from Doctors table whose Specialization is 'Pediatrics' and First name is 'Michael'.
 
@@ -110,11 +110,11 @@ DELETE FROM Doctors
 where specialization='Pediatrics' and first_name='Michael';
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/c08ad2ca-5121-4fbb-9eb4-fd9dbf526915)
 
 
-**Question 6**
+### Question 6
 ---
 --Write a SQL query to Delete customers from 'customer' table where 'GRADE' is less than 2.
 ```sql
@@ -122,11 +122,11 @@ DELETE FROM Customer
 where GRADE<2;
 ```
 
-**Output:**
+### Output:
 
 ![image](https://github.com/user-attachments/assets/d0a5a975-1384-42d1-9dd0-e36c036da8c0)
 
-**Question 7**
+### Question 7
 ---
 -- Write a SQL query to label rows in the Calculations table as 'Even' if value1 is even, otherwise 'Odd'.
 
@@ -137,11 +137,11 @@ end as parity
 from Calculations;
 ```
 
-**Output:**
+### Output:=
 ![image](https://github.com/user-attachments/assets/9d3a847c-16d3-4b6f-a9dd-3a927382060a)
 
 
-**Question 8**
+### Question 8
 ---
 --Write a SQL query to find all employees who were hired in the year 2022 from emp table.
 
@@ -150,11 +150,11 @@ SELECT * from emp
 where hiredate like '%2022%';
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/8d0fb572-e9ab-422c-9420-93a177cd0b45)
 
 
-**Question 9**
+### Question 9
 ---
 -- Write a query to fetch the number of employees working in the department ‘HR’.
 ```sql
@@ -163,11 +163,11 @@ from EmployeeInfo
 where department='HR';
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/649f436b-38e1-404e-a848-2920e73a6667)
 
 
-**Question 10**
+### Question 10
 ---
 --Write a SQL query to calculate the discounted price for products where the discount percentage is greater than 0, and order the results by discounted_price in ascending order. Return product_id, original_price, discount_percentage, and discounted_price.
 ```sql
@@ -177,7 +177,7 @@ where discount_percentage>0
 ORDER BY discounted_price ASC;
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/d0fe0ae6-63a3-40d9-8105-b79dba0adb99)
 
 ## 
