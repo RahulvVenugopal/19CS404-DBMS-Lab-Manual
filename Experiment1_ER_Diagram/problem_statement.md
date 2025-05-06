@@ -69,11 +69,11 @@ Prerequisite Courses- (course name, credits)
 
 ## Relationships and Constraints:
 - Belongs to (Student, Department)
--Enrolls in (Student, Course)
--Offers (Department, Course)
--Handled by (Course, Faculty)
--Has prerequisites (Course, Prerequisite Courses)
--Belongs to (Faculty, Department)
+- Enrolls in (Student, Course)
+- Offers (Department, Course)
+- Handled by (Course, Faculty)
+- Has prerequisites (Course, Prerequisite Courses)
+- Belongs to (Faculty, Department)
 
 ## Extension (Prerequisite / Billing):
 - The ER diagram models prerequisites using the has prerequisites relationship connecting Course to the Prerequisite Courses entity. This separate entity stores details like course name and credits for each prerequisite. This design allows a course to have multiple prerequisites, each with specific attributes, avoiding multi-valued attributes in the Course entity. The implied Many-to-Many relationship signifies that one course can have several prerequisites, and a course can be a prerequisite for many others. This approach ensures a flexible and normalized representation of prerequisite dependencies within the database.
