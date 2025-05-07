@@ -168,7 +168,7 @@ having min(Price)<10;
 ```
 
 **Output:**
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/6bd36c31-da15-4a55-8da3-a11e758b7cf3)
 
 
 ## RESULT
