@@ -193,6 +193,9 @@ join salesman s on o.salesman_id=s.salesman_id;
 **Output:**
 ![image](https://github.com/user-attachments/assets/d31199f5-e4dd-4004-bedc-15f12aea82ef)
 
+### Completion grades:
+![image](https://github.com/user-attachments/assets/4a67f018-e398-43e1-8425-ab01ddfd818b)
+
 
 ## RESULT
 Thus, the SQL queries to implement different types of joins have been executed successfully.
