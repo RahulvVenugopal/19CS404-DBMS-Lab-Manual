@@ -181,7 +181,8 @@ ORDER BY discounted_price ASC;
 ![image](https://github.com/user-attachments/assets/d0fe0ae6-63a3-40d9-8105-b79dba0adb99)
 
 ### Completion grades
-![image](https://github.com/user-attachments/assets/8e62fe53-6166-4955-85d5-9c410ed452af)
+![image](https://github.com/user-attachments/assets/b0497607-f123-4ad3-b061-da9a69ed2024)
+
 
 
 
