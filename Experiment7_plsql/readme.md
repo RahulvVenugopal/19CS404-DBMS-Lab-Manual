@@ -111,7 +111,8 @@ Reversed number is 5351
 - Display the largest number.
 
 ### Program:
-![image](https://github.com/user-attachments/assets/e04b0d9b-a396-4ecb-a417-65dd8ce29825)
+![image](https://github.com/user-attachments/assets/20e400fb-a09d-45b1-b8fa-1496fd4ca8b5)
+
 
 **Expected Output:**  
 a = 10, b = 9, c = 15  
