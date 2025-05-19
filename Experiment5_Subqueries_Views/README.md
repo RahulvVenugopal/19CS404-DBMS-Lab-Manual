@@ -165,6 +165,8 @@ WHERE ADDRESS='Delhi';
 **Output:**
 ![image](https://github.com/user-attachments/assets/16d988df-1f89-405d-acfe-b74836b1ae64)
 
+### Completion grades:
+![image](https://github.com/user-attachments/assets/c8863cbe-02d4-4a22-8b26-26a230340c1d)
 
 
 ## RESULT
