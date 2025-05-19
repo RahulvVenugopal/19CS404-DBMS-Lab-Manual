@@ -168,7 +168,12 @@ having min(Price)<10;
 ```
 
 **Output:**
+
+
 ![image](https://github.com/user-attachments/assets/6bd36c31-da15-4a55-8da3-a11e758b7cf3)
+
+### Completion grades
+![image](https://github.com/user-attachments/assets/78719ab0-6c1a-439f-ba87-6ca6bc2b3176)
 
 
 ## RESULT
